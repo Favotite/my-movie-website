@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .pen {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .note {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px 20px;
+    }
+
+    .note button {
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      padding: 10px 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .note button:hover {
+      background-color: red;
+    }
+
+    .queen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 20px;
+    }
+
+    .done {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      color: white;
+      padding: 0 20px;
+    }
+
+    .done p {
+      margin: 0;
+    }
+
+    .open {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .open button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .open button:first-child {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      border: 1px solid white;
+    }
+
+    .open button:last-child {
+      background-color: white;
+      color: black;
+    }
+
+    h3 {
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .image-row {
+      display: flex;
+      gap: 15px;
+      padding: 10px 20px;
+      overflow-x: auto;
+    }
+
+    .image-row img {
+      width: 200px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <img src="netflix.jpeg" alt="Netflix Logo" width="50" />
+    <div class="pen">
+      <img src="download.png" alt="Download Icon" width="50" />
+      <img src="search.png" alt="Search Icon" width="50" />
+    </div>
+  </nav>
+
+  <div class="note">
+    <button>TV SHOWS</button>
+    <button>MOVIES</button>
+    <button>CATEGORIES</button>
+  </div>
+
+  <div class="queen">
+    <img src="queen.jpeg" alt="Featured Show" />
+  </div>
+
+  <div class="done">
+    <p>Quirky.</p>
+    <p>Romantic.</p>
+    <p>Period Piece.</p>
+    <p>Time Travel.</p>
+    <p>TV.</p>
+  </div>
+
+  <div class="open">
+    <button>+ My List</button>
+    <button>▶ Play</button>
+  </div>
+
+  <h3>Continue Watching For Maggie</h3>
+  <div class="image-row">
+    <img src="movie.jpeg" alt="Continue Watching Movie" />
+  </div>
+
+  <h3>Today's Top Picks For You</h3>
+  <div class="image-row">
+    <img src="movieee.jpeg" alt="Top Pick 1" />
+    <img src="movie2.jpeg" alt="Top Pick 2" />
+    <img src="movie 3.jpeg" alt="Top Pick 3" />
+    <img src="movie4.jpeg" alt="Top Pick 4" />
+  </div>
+
+  <h3>Top Mobile Games</h3>
+  <div class="image-row">
+    <img src="game1.jpeg" alt="Game 1" />
+    <img src="game2.jpeg" alt="Game 2" />
+    <img src="game3.jpeg" alt="Game 3" />
+    <img src="game4.jpeg" alt="Game 4" />
+  </div>
+
+  <h3>Because you watched The Virtuous Woman</h3>
+  <div class="image-row">
+    <img src="man.jpeg" alt="Suggested Movie 1" />
+    <img src="man1.jpeg" alt="Suggested Movie 2" />
+    <img src="man2.jpeg" alt="Suggested Movie 3" />
+    <img src="man3.jpeg" alt="Suggested Movie 4" />
+  </div>
+
+  <h3>Teen TV Shows</h3>
+  <div class="image-row">
+    <img src="teen1.jpeg" alt="Teen Show 1" />
+    <img src="teen2.jpeg" alt="Teen Show 2" />
+    <img src="teen3.jpeg" alt="Teen Show 3" />
+    <img src="teen4.jpeg" alt="Teen Show 4" />
+  </div>
+
+  <h3>Nollywood Movies and TV</h3>
+  <div class="image-row">
+    <img src="wood1.jpeg" alt="Nollywood 1" />
+    <img src="wood2.jpeg" alt="Nollywood 2" />
+    <img src="wood3.jpeg" alt="Nollywood 3" />
+    <img src="wood 4.jpeg" alt="Nollywood 4" />
+  </div>
+</body>
+
+</html>
